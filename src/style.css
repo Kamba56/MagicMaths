@@ -63,11 +63,11 @@ input {
   background: #e0e0e0;
 }
 
-div[id="="] .btn,
+.btn-div:nth-child(19) .btn,
 .btn-div:nth-child(4n+0) .btn {
   background: #f5913e;
 }
 
-div[id="0"] {
+.btn-div:nth-child(17) {
   grid-column: 1/3;
 }
