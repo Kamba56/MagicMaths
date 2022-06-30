@@ -23,7 +23,8 @@ input {
 .calc {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   height: auto;
   padding: 2px;
   background: #bebebe;
