@@ -1,7 +1,7 @@
 import React from 'react';
 import Calculator from './components/calculator';
 
-class FullCalculator extends React.component {
+class FullCalculator extends React.PureComponent {
   render() {
     return (
       <section className="calc-section">

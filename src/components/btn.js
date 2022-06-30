@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-class Btn extends React.component {
+class Btn extends React.PureComponent {
   render() {
+    const { btnName } = this.props;
     return (
       <div className="btn-div">
-        <button type="button" className="btn">{this.props.btnName}</button>
+        <button type="button" className="btn">{btnName}</button>
       </div>
     );
   }
