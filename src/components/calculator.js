@@ -4,10 +4,6 @@ import Btn from './btn';
 const buttonArr = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
 
 class Calculator extends React.component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="calc">

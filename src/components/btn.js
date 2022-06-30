@@ -2,10 +2,6 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 class Btn extends React.component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="btn-div">
