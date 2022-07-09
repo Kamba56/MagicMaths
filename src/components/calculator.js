@@ -14,14 +14,17 @@ const Calculator = () => {
 
   const { total, next, operation } = solution;
   return (
-    <div className="calc">
-      <input type="text" value={(total === null ? '' : total) + (operation === null || operation === undefined ? '' : operation) + (next === null ? '' : next)} disabled className="calc-input" placeholder="0" />
-      <div className="btn-contain">
-        {buttonArr.map((btn) => (
-          <Btn key={btn} btnName={btn} event={handleClick} />
-        ))}
+    <section className="container">
+      <h2>Let&apos;s Do Some Maths</h2>
+      <div className="calc">
+        <input type="text" value={(total === null ? '' : total) + (operation === null || operation === undefined ? '' : operation) + (next === null ? '' : next)} disabled className="calc-input" placeholder="0" />
+        <div className="btn-contain">
+          {buttonArr.map((btn) => (
+            <Btn key={btn} btnName={btn} event={handleClick} />
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
