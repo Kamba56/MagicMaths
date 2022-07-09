@@ -5,6 +5,43 @@
   font-family: monospace;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation a{
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.navigation a:hover {
+  color: #bebebe;
+  background-color: #0a0a0a;
+}
+
+#logo a {
+  font-size: xx-large;
+}
+
+.container {
+  display: flex;
+  row-gap: 30px;
+  width: 90%;
+  margin: 60px auto 0;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 button,
 input {
   outline: none;
@@ -23,8 +60,9 @@ input {
 .calc {
   display: flex;
   flex-direction: column;
-  max-width: 300px;
-  width: 100%;
+  max-width: 500px;
+  width: 90%;
+  margin: auto;
   height: auto;
   padding: 2px;
   background: #bebebe;
