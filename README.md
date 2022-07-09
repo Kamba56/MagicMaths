@@ -13,7 +13,8 @@ This is an appliction developed with react that represents all the basic functio
 
 ## Live Demo ✔️
 
-[Live Demo Link](https://github.com/Kamba56/MagicMaths.git)
+[Netlify Link](https://melodic-speculoos-806584.netlify.app)
+[Heroku Link](https://math-magics.herokuapp.com/)
 
 
 ## Getting Started 🙌
